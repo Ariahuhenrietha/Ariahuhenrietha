@@ -1,0 +1,66 @@
+Microsoft Windows [Version 10.0.19045.4651]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User>cd C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite
+
+C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>venv\Scripts\activate
+The system cannot find the path specified.
+
+C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>cd C:\Users\User\Desktop\multimedia_website\multimedia_website
+
+C:\Users\User\Desktop\multimedia_website\multimedia_website>venv\Scripts\activate
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website>python manage.py runserver
+C:\Program Files\Python312\python.exe: can't open file 'C:\\Users\\User\\Desktop\\multimedia_website\\multimedia_website\\manage.py': [Errno 2] No such file or directory
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website>cd C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2024 - 03:20:23
+Django version 5.0.7, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[31/Jul/2024 03:20:50] "GET / HTTP/1.1" 200 204
+Not Found: /favicon.ico
+[31/Jul/2024 03:20:50] "GET /favicon.ico HTTP/1.1" 404 2271
+[31/Jul/2024 03:20:57] "GET / HTTP/1.1" 200 204
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>heroku login
+ »   Warning: Our terms of service have changed: https://dashboard.heroku.com/terms-of-service
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/bb6ecc94-3a55-42c2-a1ed-c3e95521c763?requestor=SFMyNTY.g2gDbQAAAA40MS4xMzguMTYzLjE3NW4GANhKUQiRAWIAAVGA.1pvK3xmb16l2P_achxbu9PxiIPC1JQkageK38aFOvsE
+heroku: Waiting for login... !
+ »   Error: timeout
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>heroku login
+heroku: Waiting for login... !
+ »   Error: timeout
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/225cdd9f-76c5-4d5c-a1c1-a96d5227bb6f?requestor=SFMyNTY.g2gDbQAAAA40MS4xMzguMTYzLjE3NW4GACBoXwiRAWIAAVGA.
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>heroku login
+ »   Warning: heroku update available from 9.0.0 to 9.1.0.
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/8b347bf8-1028-4feb-a5df-ba3abebf0a19?requestor=SFMyNTY.g2gDbQAAAA40MS4xMzguMTYzLjE3NW4GAMDPegiRAWIAAVGA.bAqxnzoKFU31nFuQGyh9ef7lhNlSLYTq6yvkZYYUZvc
+heroku: Waiting for login... !
+ »   Error: timeout
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite> heroku login
+ »   Warning: heroku update available from 9.0.0 to 9.1.0.
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/ab6d1c92-12c6-4d08-acdb-221baf3df83a?requestor=SFMyNTY.g2gDbQAAAA40MS4xMzguMTYzLjE3NW4GANAqnAiRAWIAAVGA.tIS6CgTT1AVK4m9AgxytEbCeu4QOc3euDWjbE9-3V1M
+Logging in... done
+Logged in as chinweariahu27@gmail.com
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>heroku create
+ »   Warning: heroku update available from 9.0.0 to 9.1.0.
+Creating app... !
+ »   Error: To create an app, verify your account by adding payment information. Verify now at https://heroku.com/verify Learn more at
+ »   https://devcenter.heroku.com/articles/account-verification
+ »
+ »   Error ID: verification_required
+
+(venv) C:\Users\User\Desktop\multimedia_website\multimedia_website\mysite>

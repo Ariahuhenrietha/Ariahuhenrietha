@@ -1,0 +1,15 @@
+<!-- multimedia/templates/multimedia/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia Website</title>
+</head>
+<body>
+    <h1>Media Items</h1>
+    <ul>
+        {% for media in media_items %}
+            <li>{{ media.title }}: {{ media.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
